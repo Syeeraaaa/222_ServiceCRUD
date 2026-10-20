@@ -15,7 +15,7 @@ const pool = new Pool({
     host: 'localhost',
     database: 'Mahasiswa',
     password: 'Syeera', 
-    port: 5432,
+    port: 5433,
 })
 
 // GET ALL
