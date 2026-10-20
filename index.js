@@ -19,7 +19,7 @@ const pool = new Pool({
 })
 
 // GET ALL
-app.get('/', (req, res) => {
+app.get('/biodata', (req, res) => {
     console.log("TEST DATA :");
 
     pool.query('SELECT * FROM biodata ORDER BY id')
