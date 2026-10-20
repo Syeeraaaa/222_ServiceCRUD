@@ -32,9 +32,7 @@ app.get('/biodata', (req, res) => {
         });
 });
 
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-});
+
 // POST (Tambah Data)
 app.post('/biodata', (req, res) => {
     const { id, nama, nim, kelas } = req.body;
@@ -102,3 +100,4 @@ app.delete('/biodata/:id', (req, res) => {
 app.listen(port, () => {
     console.log(`App running on port ${port}.`);
 });
+
